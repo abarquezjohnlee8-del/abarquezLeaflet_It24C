@@ -7,9 +7,7 @@ L.tileLayer(
   { attribution: "© OpenStreetMap contributors" }
 ).addTo(map);
 
-// --------------------------
-// CITY DATA with LATITUDE & LONGITUDE
-// --------------------------
+
 const cities = [
   { name: "Manila",         lat: 14.5995, lon: 120.9842 },
   { name: "Cebu City",      lat: 10.3157, lon: 123.8854 },
